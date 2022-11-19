@@ -68,7 +68,7 @@ app.put("/api/update", (req, res) => {
     })
 })
 
-const PORT = 3000 //process.env.EXPRESSPORT;
+const PORT = 3002 //process.env.EXPRESSPORT;
 const msg = `Running on PORT ${PORT}`
 app.get("/", (req, res) => {
     res.send(`<h1>Express Server</h1><p>${msg}<p>`)

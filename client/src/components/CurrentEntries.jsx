@@ -1,9 +1,10 @@
-import { useState, useRef, useEffect } from 'react';
+import {useState, useRef, useEffect } from 'react';
 import axios from 'axios'
+import React from 'react';
 
 const CurrentEntries = () => {
 
-  const SECRET = process.env.REACT_APP_PASSCODE
+  const SECRET = 777 //process.env.REACT_APP_PASSCODE
 
   const [entryList, setEntryList] = useState([])
 
