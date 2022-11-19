@@ -4,6 +4,7 @@ import AddEntry from '../AddEntry.jsx';
 import CurrentEntries from '../CurrentEntries.jsx';
 import VoucherTable from "./Vouchers";
 import Header from "./header";
+import Footer from "./footer";
 
 function App() {
 
@@ -17,6 +18,8 @@ function App() {
       <hr />
       <VoucherTable/>
       <CurrentEntries />
+        <hr />
+        <Footer/>
     </div>
   )
 }
